@@ -1,0 +1,94 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cancion {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    color: #ffcc00;
+    margin-bottom: 15px;
+  }
+  
+  audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #888;
+  }
+  
+  /* Button Styles */
+  audio {
+    background: #444;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  audio::-webkit-media-controls-panel {
+    background: #333 !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  audio::-webkit-media-controls-play-button {
+    background-color: #ffcc00 !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  
+  audio::-webkit-media-controls-volume-slider {
+    background: #444;
+    border-radius: 5px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  
